@@ -1,3 +1,3 @@
  restaurant maxiburger : 
 
- ttps://zduchevreuil.github.io/MaxiBurger-Restaurant/
+ https://zduchevreuil.github.io/MaxiBurger-Restaurant/
