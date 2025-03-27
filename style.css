@@ -1,0 +1,170 @@
+html {
+    min-width: 100px;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1695DA;
+    line-height: 50px;
+}
+
+header.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+div.title-box {
+    background-color: white;
+    position: relative;
+    top: 300px;
+    z-index: 999;
+    box-shadow: -12px 12px 2px 1px black;
+    font-size: 2vw
+}
+
+.header h1 , p ,li {
+    font-family: cursive;
+    margin: 0 auto;
+} 
+
+.header h1 , p {
+    margin: 20px;
+}
+
+/* slider */
+
+div.slides {
+    display: flex;
+    flex-direction: row;
+    animation: glisse 5s infinite ease;
+}
+
+.slide {
+    opacity: 0.5;
+    font-size: 4.5vw
+}
+
+img {
+    position: relative;
+    top: -150px;
+}
+
+
+@keyframes glisse {
+
+    0% {
+        transform: translateX(0);
+    }
+
+    10% {
+        transform: translateX(-200px);
+    }
+
+    33% {
+        transform: translateX(-500px);
+    }
+
+    66% {
+        transform: translateX(-200px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+
+}
+
+/* menu de navigation */
+
+nav.menu ul {
+    margin: 0 auto;
+    font-size: 4.5vw
+}
+
+nav.menu ul {
+    display: flex;
+    font-size: 4.5vw
+}
+
+nav.menu ul li {
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    font-size: 4.5vw
+}
+
+
+.nav-item:hover {
+    transform: scale(0.8);
+    transition: 0.3s;
+}
+
+.nav-item {
+    flex: 1;
+    height: 300px;
+    position: relative;
+    top: -150px;
+    font-size: 4.5vw
+}
+
+.pizza {
+    background: url(pizza2.jpg) 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.salade {
+    background: url(pizza2.jpg) 100%;
+    background-repeat: no-repeat;
+}
+
+.burger {
+    background: url(pizza2.jpg) 100%;
+    background-repeat: no-repeat;
+}
+
+.boissons {
+    background: url(pizza2.jpg) 100%;
+    background-repeat: no-repeat;
+}
+
+/* section plat */
+
+.item {
+    background-color: white;
+    margin: 50px;
+    display: flex;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.item:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+
+section {
+    padding: 50px;
+}
+
+section img {
+    width: 300px;
+    position: relative;
+    top: 0px;
+}
+
+h2.cool {
+    background-color: white;
+}
